@@ -1,4 +1,4 @@
-Php-long-polling
+long-polling example for php
 ================
-Artigo sobre Long Polling
+forked from
 http://carlosmaniero.blogspot.com.br/2012/07/php-long-polling.html
