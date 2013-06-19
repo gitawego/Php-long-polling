@@ -10,7 +10,7 @@ $_SESSION['name'] = $_POST['name'];
     <script src="ui/js/jquery-1.7.2.min.js" type="text/javascript"></script>
     <script src="ui/js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="ui/css/pepper-grinder/jquery-ui-1.8.21.custom.css" type="text/css" media="all"/>
-    <title>Bate-Papo da Freela</title>
+    <title>Chat example</title>
     <style type="text/css">
         body {
             font-size: 11px;
@@ -67,7 +67,6 @@ $_SESSION['name'] = $_POST['name'];
 
                 },
                 complete: function () {
-                    console.log('complete');
                     get_messages();
                 }
             });
@@ -93,8 +92,8 @@ $_SESSION['name'] = $_POST['name'];
 <div class="ui-widget" id="chat">
     <div class="ui-widget-content ui-corner-all" id="chat-post">
         <form method="post" id="form-post">
-            <label>Mensagem:<input type="text" name="post" class="ui-corner-all"></label>
-            <button>Enviar</button>
+            <label>Message:<input type="text" name="post" class="ui-corner-all"></label>
+            <button>Send</button>
         </form>
     </div>
     <div class="ui-widget-content ui-corner-all" id="chat-content">
